@@ -24,7 +24,7 @@ pipeline{
           try {
             //Iniciando servidor
             echo 'Iniciando el servidor...'
-            sh 'node run dev'
+            sh 'npm run start'
           }
           catch (Exception e) { 
             error('❌ Error en la etapa de inicialización de servidor.')
