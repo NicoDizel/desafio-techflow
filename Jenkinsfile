@@ -21,14 +21,9 @@ pipeline{
     stage('Pruebas'){
       steps{
         script {
-          try {
-            //Ejecutando pruebas
-            echo 'Ejecutando pruebas...'
-            sh 'npm test'
-          }
-          catch (Exception e) { 
-            error('❌ Error en las pruebas.')
-          }
+          //Ejecutando pruebas
+          echo 'Ejecutando pruebas...'
+          sh 'npm test --silent=false'
         }
       }
     }
