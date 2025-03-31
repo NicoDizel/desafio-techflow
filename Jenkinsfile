@@ -23,7 +23,7 @@ pipeline{
         script {
           //Ejecutando pruebas
           echo 'Ejecutando pruebas...'
-          sh 'npm test'
+          sh 'npm test -- --coverage'
         }
       }
     }
