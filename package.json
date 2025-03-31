@@ -1,0 +1,32 @@
+{
+  "name": "ci_pipeline_project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "supertest": "^6.3.3"
+  },
+  "description": "Desafio del módulo 8 clase 8 del curso de DesafioLatam Backend JavaScript",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoDizel/desafio-techflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoDizel/desafio-techflow/issues"
+  },
+  "homepage": "https://github.com/NicoDizel/desafio-techflow#readme"
+}
