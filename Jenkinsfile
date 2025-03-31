@@ -23,7 +23,7 @@ pipeline{
         script {
           //Ejecutando pruebas
           echo 'Ejecutando pruebas...'
-          sh 'npm test --silent=false'
+          sh 'npm test'
         }
       }
     }
